@@ -1,0 +1,612 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "sifonn-basic-outline", sans-serif;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  header a img {
+    width: 200px;
+  }
+  
+  .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 2rem;
+    color: white;
+    text-decoration: none;
+  }
+
+ 
+  
+  .navigation ul li a:hover {
+    background-color: black;
+    border-radius: 20px;
+  }
+  header.abajo {
+    background-color: black;
+  }
+  
+  header.abajo ul li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  .menu-icon {
+    display: none;
+  }
+  
+   /*header mobiles*/  
+  
+  @media only screen and (max-width: 900px) {
+    
+    header a img {
+      width: 150px;
+    }
+
+    
+    .menu-icon {
+      display: block;
+      color: white;
+      cursor: pointer;
+    }
+  
+    .navigation {
+      width: 100%;
+    }
+  
+    .navigation ul {
+      display: none;
+    }
+  
+    .navigation ul.show {
+      display: block;
+    }
+  
+    .navigation ul li {
+      display: block;
+      padding: 1% 0%;
+    }
+  
+    header {
+      background-color: black;
+    }
+  
+    .navigation ul li a:hover {
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+    }
+  
+  }
+  
+  h2 {
+    background-image: url(https://i.ibb.co/xXmzwXy/Amarillo-Profesional-Gradiente-Tecnolog-a-Comunicaci-n-Interna-Sitio-Web-8-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    padding: 19% 0% 28% 55%;
+    color: white;
+    letter-spacing: 1px;
+    font-family: monospace;
+  }
+  
+  
+  .contenedor-texto .tiendas {
+    color: #0170e3;
+  }
+  
+  h1.titulo1 {
+    color: #0170e3;
+    font-size: 1000%;
+    margin: 10%;
+    text-align: center;
+  }
+  
+  section.seccion1 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  section.seccion1 p {
+    font-size: larger;
+    margin-left: 20%;
+  }
+  
+  .imagen1 {
+    width: 30%;
+    margin: 0% 8%;
+  }
+  
+  h1.titulo2 {
+    color: #c55a6a;
+    font-size: 1000%;
+    margin: 10% 15% 10% 10%;
+    text-align: right;
+  }
+  
+  section.seccion2 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  section.seccion2 p {
+    font-size: larger;
+  
+    margin: 0% 8%;
+  }
+  
+  .imagen2 {
+    width: 30%;
+    margin-left: 15%;
+  }
+  
+  h1.titulo3 {
+    color: #0170e3;
+    font-size: 1000%;
+    margin: 10% 10% 10% 15%;
+    text-align: left;
+  }
+  
+  section.seccion3 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  section.seccion3 p {
+    font-size: larger;
+    margin-left: 20%;
+  }
+  
+  .imagen3 {
+    width: 30%;
+    margin: 0% 8%;
+  }
+  
+  /* texto h2*/
+  
+  @media only screen and (max-width: 1550px) {
+  
+    h2 {
+      font-size: 30px;
+      padding: 19% 0% 28% 55%;
+    }
+  
+  }
+  
+  /* main mobiles */
+  
+  @media only screen and (max-width: 900px) {
+   
+    h2 {
+      font-size: 20px;
+      padding: 30% 0% 40% 35%;
+    }
+   
+    .container {
+      width: 80%;
+    }
+  
+    .main {
+      margin: 0 0% 0 15%;
+    }
+  
+    h1.titulo1 {
+      font-size: 6em;
+      margin: 10% 10% 10% 0;
+      text-align: left;
+    }
+  
+    section.seccion1 {
+      display: block;
+      justify-content: baseline;
+      align-items: center;
+      margin-top: 5%;
+    }
+  
+    section.seccion1 p {
+      margin-left: 0%;
+      text-align: justify;
+    }
+  
+    .imagen1 {
+      width: 70%;
+      margin: 10% 8%;
+    }
+  
+    h1.titulo2 {
+      font-size: 6em;
+      margin: 10% 0;
+      text-align: justify;
+    }
+  
+    section.seccion2 {
+      display: block;
+      justify-content: baseline;
+      align-items: center;
+      margin-top: 5%;
+    }
+  
+    section.seccion2 p {
+      margin: 0%;
+      text-align: justify;
+    }
+  
+    .imagen2 {
+      width: 65%;
+      margin: 10% 8%;
+    }
+  
+    h1.titulo3 {
+      font-size: 6em;
+      margin: 10% auto;
+      text-align: justify;
+    }
+  
+    section.seccion3 {
+      display:  block;
+      justify-content: baseline;
+      align-items: center;
+      margin-top: 5%;
+    }
+  
+    section.seccion3 p {
+      margin-left: 0%;
+      text-align: justify;
+    }
+  
+    .imagen3 {
+      width: 70%;
+      margin: 10% 8%;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+   
+    h2 {
+      font-size: 15px;
+      padding: 40% 0% 50% 44%;
+    }
+   
+    .container {
+      width: 70%;
+    }
+  
+    .main {
+      margin: 0 0% 0 15%;
+    }
+  
+  
+    h1.titulo1 {
+      font-size: 6em;
+      margin: 10% 0;
+    }
+  
+    section.seccion1 p {
+      font-size: large;
+      margin-left: 5%;
+    }
+  
+    h1.titulo2 {
+      font-size: 5em;
+    }
+  
+    section.seccion2 p {
+      font-size: large;
+      margin-left: 5%;
+    }
+    h1.titulo3 {
+      font-size: 5em;
+  
+    }
+  
+    section.seccion3 p {
+      font-size: large;
+      margin-left: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 390px) {
+   
+    h2 {
+      font-size: 9px;
+      padding: 40% 0% 50% 44%;
+    }
+   
+  
+    h1.titulo1 {
+      font-size: 4em;
+    }
+  
+    section.seccion1 p {
+      font-size: medium;
+      margin-left: 5%;
+    }
+  
+    h1.titulo2 {
+      font-size: 3em;
+    }
+  
+    section.seccio2 p {
+      font-size: medium;
+      margin-left: 5%;
+    }
+  
+    h1.titulo3 {
+      font-size: 3em;
+  
+    }
+  
+    section.seccion3 p {
+      font-size: medium;
+      margin-left: 5%;
+    }
+  
+  }
+  
+  
+  article {
+    background-image: url(https://i.ibb.co/RCJjXN7/Amarillo-Profesional-Gradiente-Tecnolog-a-Comunicaci-n-Interna-Sitio-Web-14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 300%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 10%;
+    margin-top: 15%;
+    letter-spacing: 12px;
+    text-align: center;
+  }
+  
+  
+  /* articulo y tarjeta de ropa*/
+  
+  @media only screen and (max-width: 1550px) {
+  
+    article {
+      font-size: 300%;
+      display: block;
+      padding: 10% 10%;
+    }
+  
+    div.contenedor {
+      margin: 10% 32%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 750px) {
+  
+    article {
+      font-size: 200%;
+      letter-spacing: 2px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 550px) {
+  
+    article {
+      font-size: 130%;
+      letter-spacing: 0px;
+    }
+  
+  }
+  
+  
+  article div.contenedor .card1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: whitesmoke;
+  }
+  
+  div.contenedor .card1:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  div.contenedor .card1 img {
+    width: 95%;
+    height: 95%;
+    margin-top: 3%;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  footer img {
+    width: 50%;
+    margin-right: 15%;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  footer ul li {
+    list-style: none;
+    margin: 10% 0%;
+    text-align: left;
+  }
+  
+  footer ul ol > a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+   
+  }
+  
+  
+  
+  footer ul li > a {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  footer ul li a:hover,
+  a:focus {
+    background-size: 100% 2px;
+  }
+  
+  footer h4 {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  /*footer mobiles*/
+  
+  @media only screen and (max-width: 1000px) {
+  
+    footer ul  {
+     padding: 10% 10%;
+    }
+  
+  
+    footer ul ol > a {
+      
+      font-size: x-large;
+    }
+  
+    footer ul li > a {
+      font-size: medium;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+  
+   
+    footer ul ol > a {
+      
+      font-size: medium;
+    }
+  
+    footer ul li > a {
+      font-size: small;
+    }
+  
+  
+    footer img {
+  
+  display: none;
+  
+    }
+  
+  }
+  
+  
+  
+  .social-bar {
+    position: fixed;
+    right: 0;
+    top: 60%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+   
+  }
+  
+  .icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all 0.5s;
+  }
+  
+  .icon-facebook1 {
+    background: #2e406e;
+    font-size: 1.3rem;
+  }
+  
+  .icon-whatsapp1 {
+    background: green;
+  }
+  
+  .icon-google1 {
+    background: orange;
+    font-size: 1.3rem;
+  }
+  
+  .icon-instagram1 {
+    background: #e83028;
+  }
+  
+  .icon:first-child {
+    border-radius: 1rem 0 0 0;
+  }
+  
+  .icon:last-child {
+    border-radius: 0 0 0 1rem;
+  }
+  
+  .icon:hover {
+    padding-right: 4rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+  }
+  
+  
