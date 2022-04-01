@@ -43,3 +43,13 @@ menu.addClass('show');
   cursorChar: "", // Caracter para el cursor
   contentType: "html", // 'html' o 'null' para texto sin formato
 });
+
+$(document).ready(function() {
+  $('#autoWidth').lightSlider({
+      autoWidth:true,
+      loop:true,
+      onSliderLoad: function() {
+          $('#autoWidth').removeClass('cS-hidden');
+      } 
+  });  
+});
