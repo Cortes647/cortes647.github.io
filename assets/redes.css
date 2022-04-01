@@ -24,16 +24,18 @@
   }
   
   .icon-whatsapp1 {
-    background: green;
+    background: orangered;
+    font-size: 1.3rem;
   }
   
   .icon-google1 {
-    background: orange;
+    background: deepskyblue;
     font-size: 1.3rem;
   }
   
   .icon-instagram1 {
     background: #e83028;
+  
   }
   
   .icon:first-child {
