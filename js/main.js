@@ -27,7 +27,7 @@ menu.addClass('show');
     '<i class="tiendas">Ropa</i>',
     '<i class="tiendas">Comida</i>',
     '<i class="tiendas">Arte</i>',
-    '<i class="tiendas">Muebles</i>',
+    '<i class="tiendas">Todo!</i>',
   ],
 
   //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
@@ -43,15 +43,3 @@ menu.addClass('show');
   cursorChar: "", // Caracter para el cursor
   contentType: "html", // 'html' o 'null' para texto sin formato
 });
-
-
-type =
-  "text/javascript" >
-  window.addEventListener("scroll", function () {
-    var header = document.querySelector("header");
-    header.classList.toggle("abajo", window.scrollY > 0);
-  });
-
-
-
- 
