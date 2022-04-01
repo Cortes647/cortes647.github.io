@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -67,6 +67,7 @@
       display: block;
       color: white;
       cursor: pointer;
+      margin-right: 5%;
     }
   
     .navigation {
