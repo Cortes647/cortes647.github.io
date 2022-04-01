@@ -6,12 +6,7 @@
     font-family: "sifonn-basic-outline", sans-serif;
   }
   
-  html{
-  
-    scroll-behavior: smooth;
-    
-    }
-  
+
   
   .container {
     width: 90%;
@@ -29,11 +24,7 @@
     font-family: 'poppins',sans-serif;
   }
   
-  span.typed{
-  
-  display: none;
-  
-  }
+
   
   section.seccion2 {
     display: flex;
@@ -50,7 +41,7 @@
     font-family: 'poppins',sans-serif;
   }
   
-  .contenedor-2{
+  .contenedor{
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
@@ -84,7 +75,7 @@ margin: 0 1% ;
   }
 
 
- div.contenedor-2 ul{
+ div.contenedor ul{
 
     border-radius: 20px ;
     background-color: whitesmoke;
@@ -99,7 +90,7 @@ color: green;
 
   }
 
-div.contenedor-2 ul li {
+div.contenedor ul li {
 
 list-style: none;
 padding: 5% ;
@@ -134,7 +125,7 @@ border-radius: 16px 16px 0  0;
 }
 
 
-.contenedor-2 ul ol{
+.contenedor ul ol{
 
 background-color:#0170e3 ;
 color: white;
@@ -184,7 +175,7 @@ color: red;
 
 
 
-    .contenedor-2{
+    .contenedor{
   
       max-width: 1300px;
 
@@ -223,7 +214,7 @@ color: red;
   
   
   
-    .contenedor-2{
+    .contenedor{
       max-width: 600px;
     display: block;
     
@@ -261,7 +252,7 @@ color: red;
   
   
   
-    .contenedor-2{
+    .contenedor{
       max-width: 500px;
     display: block;
     
@@ -277,7 +268,7 @@ color: red;
   
   
   
-    .contenedor-2{
+    .contenedor{
       max-width: 400px;
     display: block;
     
@@ -291,7 +282,7 @@ color: red;
   
   
   
-    .contenedor-2{
+    .contenedor{
       max-width: 350px;
     display: block;
     
@@ -306,7 +297,7 @@ color: red;
   
   
   
-    .contenedor-2{
+    .contenedor{
       max-width: 300px;
     display: block;
     
@@ -318,7 +309,7 @@ color: red;
   
   
   
-      .contenedor-2{
+      .contenedor{
         max-width: 250px;
       display: block;
       
@@ -331,7 +322,7 @@ color: red;
   
   
   
-        .contenedor-2{
+        .contenedor{
           max-width: 200px;
         display: block;
         
@@ -344,7 +335,7 @@ color: red;
   
   
   
-          .contenedor-2{
+          .contenedor{
             max-width: 150px;
           display: block;
           
